@@ -29,7 +29,6 @@ const AlbumDetails = () => {
 
 	const displayData = useMemo(() => {
 		return albumDetails?.songs?.slice((page - 1) * 10, page * 10);
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [page, albumDetails]);
 
 	const fetchAlbumDetails = async () => {
@@ -53,7 +52,6 @@ const AlbumDetails = () => {
 		} else {
 			navigate("/");
 		}
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [slug]);
 
 	return (

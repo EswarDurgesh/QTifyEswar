@@ -77,7 +77,6 @@ function LandingPage() {
 		generateTopAlbumData();
 		generateNewAlbumData();
 		generateAllSongsData();
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const dropdownData = topAlbumData?.concat(newAlbumData);

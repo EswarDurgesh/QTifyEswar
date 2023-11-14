@@ -13,7 +13,6 @@ const Controls = ({ data }) => {
 
 	useEffect(() => {
 		swiper?.slideTo(0);
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [data]);
 
 	return <></>;

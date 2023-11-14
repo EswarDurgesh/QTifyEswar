@@ -13,7 +13,6 @@ const CarouselRightNavigation = () => {
 		swiper.on("slideChange", () => {
 			setIsEnd(swiper.isEnd);
 		});
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	return (

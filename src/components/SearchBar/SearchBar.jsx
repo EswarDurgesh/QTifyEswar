@@ -27,7 +27,6 @@ const SearchBar = (props) => {
 
 	useEffect(() => {
 		_filterData(data);
-		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [inputValue]);
 
 	return (
